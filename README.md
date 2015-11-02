@@ -37,5 +37,5 @@ This bundle is under the [MIT][3] license.
 
 [1]:  http://makedev.org/articles/symfony/bundles/robots_txt_bundle.html
 [2]:  http://makedev.org/robots.txt
-[3]:  https://github.com/evheniy/RobotsTxtBundleLICENSE/blob/master/Resources/meta/LICENSE
+[3]:  https://github.com/evheniy/RobotsTxtBundle/blob/master/Resources/meta/LICENSE
 [4]:  https://support.google.com/webmasters/answer/6062596
