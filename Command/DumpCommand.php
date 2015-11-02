@@ -52,7 +52,7 @@ class DumpCommand extends ContainerAwareCommand
      */
     protected function render()
     {
-        return 'User-agent: *';
+        return join('\n', $this->getContainer()->getParameter('robots_txt'));
     }
 
     /**

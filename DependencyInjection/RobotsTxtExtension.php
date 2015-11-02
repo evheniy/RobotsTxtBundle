@@ -1,12 +1,15 @@
 <?php
+
 namespace Evheniy\RobotsTxtBundle\DependencyInjection;
+
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Config\Definition\Processor;
+
 /**
- * Class HTML5CacheBundle
+ * Class RobotsTxtExtension
  *
- * @package Evheniy\HTML5CacheBundle\DependencyInjection
+ * @package Evheniy\RobotsTxtBundle\DependencyInjection
  */
 class RobotsTxtExtension extends Extension
 {
@@ -21,6 +24,7 @@ class RobotsTxtExtension extends Extension
         $config = $processor->processConfiguration($configuration, $configs);
         $container->setParameter('robots_txt', $config);
     }
+
     /**
      * @return string
      */
