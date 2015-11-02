@@ -1,0 +1,26 @@
+{
+    "name": "evheniy/robots-txt-bundle",
+    "description": "The RobotsTxtBundle adds the ability to generate robots.txt file to your application.",
+    "keywords": ["robots.txt", "Symfony", "Robots", "Google standards"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "evheniy",
+            "homepage": "https://github.com/evheniy"
+        }
+    ],
+    "require": {
+        "php":             ">=5.3.0",
+        "symfony/symfony": ">=2.3"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Evheniy\\SitemapXmlBundle": ""
+        }
+    },
+    "target-dir" : "Evheniy/RobotsTxtBundle"
+}
