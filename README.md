@@ -24,6 +24,37 @@ AppKernel:
             ...
     ...
 
+config.yml:
+
+    robots_txt:
+      - 'User-agent: *'
+
+Or with sitemap:
+
+    robots_txt:
+      - 'User-agent: *'
+      - 'Sitemap: http://test.com/sitemap.xml'
+      
+The last step
+
+    app/console robots.txt:dump
+    
+Using development environment
+-----------------------------
+
+The main idea is to use robots.txt for hiding from robots (Google) indexing
+
+config_dev.yml:
+
+    robots_txt:
+      - 'User-agent: *'
+      - 'Disallow: /'
+
+And run it for dev:
+
+    app/console robots.txt:dump --env=dev
+
+
 License
 -------
 
