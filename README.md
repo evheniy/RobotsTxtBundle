@@ -48,20 +48,35 @@ The last step
 
     app/console robots.txt:dump
     
-Using development environment
+
+Using different environments
 -----------------------------
 
-The main idea is to use robots.txt for hiding project from indexing robots like Google
+The main idea is to use robots.txt for different environments, for example: for *dev* hiding project from indexing robots like Google
 
-config_dev.yml:
+**config_prod.yml**:
+
+    robots_txt:
+      - 'User-agent: *'
+      - 'Sitemap: http://test.com/sitemap.xml'
+
+**config_dev.yml**:
 
     robots_txt:
       - 'User-agent: *'
       - 'Disallow: /'
 
-And run it for dev:
+And run it for **prod**:
+
+    app/console robots.txt:dump --env=prod
+    
+And run it for **dev**:
 
     app/console robots.txt:dump --env=dev
+    
+Or just
+
+    app/console robots.txt:dump
 
 
 License
