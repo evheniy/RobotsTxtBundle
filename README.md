@@ -3,6 +3,15 @@ RobotsTxtBundle
 
 This bundle provides robots.txt generator for Symfony2
 
+[![knpbundles.com](http://knpbundles.com/evheniy/RobotsTxtBundle/badge)](http://knpbundles.com/evheniy/RobotsTxtBundle)
+
+[![Latest Stable Version](https://poser.pugx.org/evheniy/robots-txt-bundle/v/stable)](https://packagist.org/packages/evheniy/robots-txt-bundle) [![Total Downloads](https://poser.pugx.org/evheniy/robots-txt-bundle/downloads)](https://packagist.org/packages/evheniy/robots-txt-bundle) [![Latest Unstable Version](https://poser.pugx.org/evheniy/robots-txt-bundle/v/unstable)](https://packagist.org/packages/evheniy/robots-txt-bundle) [![License](https://poser.pugx.org/evheniy/robots-txt-bundle/license)](https://packagist.org/packages/evheniy/robots-txt-bundle)
+
+[![Build Status](https://travis-ci.org/evheniy/RobotsTxtBundle.svg)](https://travis-ci.org/evheniy/RobotsTxtBundle)
+[![Coverage Status](https://coveralls.io/repos/evheniy/RobotsTxtBundle/badge.svg?branch=master&service=github)](https://coveralls.io/github/evheniy/RobotsTxtBundle?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/evheniy/RobotsTxtBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/evheniy/RobotsTxtBundle/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/evheniy/RobotsTxtBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/evheniy/RobotsTxtBundle/build-status/master)
+
 Installation
 ------------
 
@@ -42,7 +51,7 @@ The last step
 Using development environment
 -----------------------------
 
-The main idea is to use robots.txt for hiding from robots (Google) indexing
+The main idea is to use robots.txt for hiding project from indexing robots like Google
 
 config_dev.yml:
 
